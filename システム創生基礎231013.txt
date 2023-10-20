@@ -1,0 +1,31 @@
+1   
+    printf("Heiio Programming in C World!\n");
+
+    return 0;
+
+2
+
+    /* メッセージを表示します */    
+    printf("Heiio Programming in C World!\n");
+    
+    return 0;
+
+3
+ /* コメントが長くなる場合は
+       このように複数行で書くことができます */
+       
+    printf("Hello\n");
+
+4
+ /*メッセージで表示します */
+    printf("Hello\n");  /* Helloを表示 */
+    printf("Good-bye\n"); /*Good-byeを表示 */
+    
+    return 0;
+    
+5
+    //メッセージで表示します
+    printf("Hello\n");  // Helloを表示 
+    printf("一行単位のコメントは//でOK!\n"); //Good-byeを表示 
+    
+    return 0;
