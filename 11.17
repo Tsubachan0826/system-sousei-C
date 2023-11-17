@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main(void)
+{
+    char c;
+
+    printf("文字を入力 = ");
+    scanf_s("%c", &c);
+    
+    if((c >= 'A') && (c <= 'Z'))
+    {
+        printf("大文字が含まれる\n");
+    }
+
+    else
+    {
+        printf("大文字は含まれない\n");
+    }
+
+    return 0;
+}
