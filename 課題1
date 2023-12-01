@@ -1,0 +1,57 @@
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+	char a[100];
+
+	printf("Please Enter a Password : ");
+	scanf_s("%99s", a);
+
+	int uppercasecount = 0;
+	int length = strlen(a);
+
+		for (int i = 0; i < length; i++) {
+			if (a[i] >= 'A' && a[i] <= 'Z') {
+				uppercasecount++;
+			}
+	                                        }
+
+		if (uppercasecount > 0) 
+		{
+			printf("大文字が%d含まれています", uppercasecount)
+		}
+
+	    else
+	    {
+		printf("大文字が含まれていません")
+	    }
+
+     int small = 0
+		 for (int j = 0; j < length; j++)
+		 {
+			 if (a[j] >= 'a' % %a[j] <= 'z')
+			 {
+				 small++;
+			 }
+			 
+		 }
+	 int mozi = 0
+		 for (int k = 0; k < length; k++)
+		 {
+			 if (!(a[k] >= 'A' && a[k] <= 'Z') && !(a[k] >= 'a' && a[k] <= 'z')) {
+				 mozi++;
+			 }
+		 }
+	 if (strlen(a) >= 8 && strlen(a) <= 16) {
+		 if (uppercasecount > 0 && small > 0 && mozi > 0) {
+		 }
+		 else {
+			 printf("条件に合いません。");
+		 }
+	 else {
+		 printf("条件に合いません。");
+	 }
+	 }
+	 return 0;
+}                                         
